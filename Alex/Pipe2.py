@@ -1,5 +1,5 @@
 from multiprocessing import Process,Queue,Pipe
-from Pipe1 import f
+from MidiTest import f
 
 if __name__ == '__main__':
     parent_conn,child_conn = Pipe()
